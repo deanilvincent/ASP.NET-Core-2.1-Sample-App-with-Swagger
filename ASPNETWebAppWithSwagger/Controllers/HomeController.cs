@@ -12,7 +12,7 @@ namespace ASPNETWebAppWithSwagger.Controllers
     {
         public IActionResult Index()
         {
-            return Redirect("/swagger");
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
